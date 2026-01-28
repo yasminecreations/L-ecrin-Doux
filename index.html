@@ -1,1 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>L'Écrin Doux</title>
+
+<link href="https://fonts.googleapis.com/css?family=Parisienne|Tangerine" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background:#eee;
+}
+
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:70px;
+    background:#bdbdbd;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+    z-index:100;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+.logo h2{
+    font-family:Parisienne;
+    font-size:30px;
+}
+
+.navbar nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:15px;
+    font-size:14px;
+}
+
+
+.hero{
+    margin-top:70px;
+    height:70vh;
+    background:url("l2.png") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    padding-bottom:30px;
+}
+
+.hero button{
+    padding:12px 35px;
+    font-size:18px;
+    border-radius:25px;
+    border:2px solid #555;
+    background:#e3e2dd;
+    cursor:pointer;
+}
+
+
+.about{
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.about h1{
+    font-family:Parisienne;
+    font-size:40px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+.about img{
+    width:100%;
+    border-radius:15px;
+}
+
+
+.trending{
+    padding:25px;
+    background:#dcdcdc;
+}
+
+.trending h1{
+    font-family:Parisienne;
+    font-size:45px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.gallery{
+    display:flex;
+    gap:10px;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    padding-bottom:10px;
+}
+
+.gallery img{
+    width:200px;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+    scroll-snap-align:start;
+}
+
+.trending button{
+    margin:20px auto 0;
+    display:block;
+    padding:10px 30px;
+    border-radius:20px;
+    border:2px solid #555;
+    background:#e3e2dd;
+    font-size:18px;
+    cursor:pointer;
+}
+
+
+.about2{
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.about2 h1{
+    font-family:Parisienne;
+    font-size:42px;
+}
+
+.about2 img{
+    width:100%;
+    border-radius:15px;
+}
+
+
+.tiktok{
+    padding:25px;
+    text-align:center;
+    background:#f2f2f2;
+}
+
+.tiktok h1{
+    font-family:Parisienne;
+    font-size:42px;
+}
+
+.tiktok img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin:20px 0;
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.tiktok button{
+    padding:10px 25px;
+    border-radius:20px;
+    border:2px solid #555;
+    background:#e3e2dd;
+    font-size:18px;
+    cursor:pointer;
+}
+
+
+footer{
+    background:#333;
+    color:#aaa;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+
+
+@media (min-width:768px){
+
+    .about,
+    .about2{
+        flex-direction:row;
+        align-items:center;
+    }
+
+    .about div,
+    .about2 div{
+        width:60%;
+    }
+
+    .about img,
+    .about2 img{
+        width:40%;
+    }
+
+    .navbar nav a{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <img src="ijij.jpeg" alt="logo">
+        <h2>L'Écrin Doux</h2>
+    </div>
+    <nav>
+        
+        <a href="explore.html">Explore</a>
+        <a href="nos produits.html">Produits</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <button>Explorer</button>
+</section>
+
+<section class="about">
+    <div>
+        <h1>Les bijoux c'est de l'amour...</h1>
+        <p>
+            L'Écrin Doux est une bijouterie en ligne née en 2024 avec l'ambition
+            de redéfinir l’élégance accessible. Chaque bijou est conçu avec soin
+            pour sublimer votre quotidien.
+        </p>
+    </div>
+    <img src="lv.jpeg" alt="bijoux">
+</section>
+
+<section class="trending">
+    <h1>Trending</h1>
+    <div class="gallery">
+        <img src="1.jpg">
+        <img src="00.jpg">
+        <img src="4.jpg">
+        <img src="ppo.jpg">
+        <img src="o.jpg">
+        <img src="c.jpeg">
+    </div>
+    <a href="https://www.tiktok.com/@lecrindoux.shop">
+        <button>Voir Plus</button>
+    </a>
+</section>
+
+<section class="about2">
+    <div>
+        <h1>Sur Nous</h1>
+        <p>
+            Chaque bijou raconte une histoire. Découvrez nos nouveautés,
+            promotions exclusives et inspirations sur TikTok.
+        </p>
+    </div>
+    <img src="ol.jpeg">
+</section>
+
+<section class="tiktok">
+    <h1>Notre Page TikTok</h1>
+    <img src="ijij.jpeg">
+    <a href="https://www.tiktok.com/@lecrindoux.shop">
+        <button>Page TikTok</button>
+    </a>
+</section>
+
+<footer>
+    © L'Écrin Doux 2024 — All rights reserved
+</footer>
+
+</body>
+</html>

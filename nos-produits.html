@@ -1,0 +1,921 @@
+
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Parisienne">
+    <title>nos produits</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;}
+            @media (max-width: 600px)
+            {
+            body{ font-size: 10px;}
+            .section-container { padding: 10px;} }
+
+        
+        
+    
+     body{
+         background-color: rgb(238, 239, 235);
+        width:100% ;
+    max-width: 1200px;
+font-size: 40px;}
+        .items {
+         background-color: 
+         rgb(187, 187, 187);
+         display: flexbox;
+         border-radius: 1rem;
+        }
+        .navbar2{
+    position: fixed;
+    top: 0px;
+    width:100% ;
+    height: 80px;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;}
+    .logo2{
+    color: rgb(240, 240, 240);
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    gap: 10px;
+    
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    font-family: parisienne;
+    gap: 1rem;
+
+}
+.line ::before,
+.line ::after{
+    content:"" ;
+    flex: 1;
+    height: 1px;
+    background-color: black;
+
+}
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    font-family: parisienne;
+
+}
+.line2 ::before,
+.line2 ::after{
+    content:"" ;
+    flex: 1;
+    height: 1px;
+    background-color: 000;
+
+}
+.h2{
+    font-family: parisienne;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.h2-2{
+    font-family: parisienne;
+    font-size: 2rem;
+    color: rgb(8, 8, 8);
+    padding-left: 7rem;
+
+}
+.input{
+    
+    height: 2rem;
+    width:12rem;
+    max-width:12rem;
+    border: 2px black;
+    
+    }
+   
+.m{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.navbar2 nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 1rem;
+    display: flexbox;
+    
+}
+
+.b2 :hover {
+    zoom: 110%;
+    transition: 2s;
+
+}
+    .box1 {
+        height: auto;
+        min-height: 500px;
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        max-width: 1200px;
+        background-image: url(ring.jpg);
+        background-size: cover ;
+        background-position: center  ;
+        box-shadow: 10px 10px 20px 10px 10px rgb(85, 85, 85);
+}
+.ttle1 {
+     font-family: parisienne;
+     font-weight: bold; 
+     font-size: 3rem;
+    
+     padding-top: 10rem;
+     padding-left: 1rem;
+     color: rgb(136, 136, 136);
+}
+
+
+
+.titles {
+display: grid;
+    gap: 10rem;
+}
+.ttle3 {
+    font-size: 2rem;
+    font-family: parisienne;
+    padding-left: 13rem;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+}
+
+.figure1 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    overflow: hidden;
+
+}
+.figure1 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+    
+}
+.figure2 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure3 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure4 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+   
+}.figure5 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure6 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure7 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure8 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure9 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure10 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure11 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure12 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}
+.figure13 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure14 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure15 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure16 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure17 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}
+.figure18 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure19 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure20 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure21 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure22 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure23 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure24 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure25 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure26 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure27 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}
+.figure28 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}.figure29 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+} 
+.figure30 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+} 
+.figure31 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}
+.figure32 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}
+.figure33 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}
+.figure34 {
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    min-height: 300px;
+}
+
+
+.figure2 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure3 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure4 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure5 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure6 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure7 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure8 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure9 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure10 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure11 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px; padding-top: 20px;
+    padding-left: 10px;
+}
+.figure12 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure13 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure14 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure15 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure16 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure17 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure18 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure19 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure20 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure21 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure22 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure23 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure24 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure25 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure26 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure27 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure28 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}.figure29 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure30 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure31 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure32 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure33 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.figure34 img {
+    width: 95%;
+    max-height: 200px;
+    border-radius: 20px;  padding-top: 20px;
+    padding-left: 10px;
+}
+.tiktok{
+    padding:25px;
+    text-align:center;
+    background:#f2f2f2;
+}
+
+.tiktok h1{
+    font-family:Parisienne;
+    font-size:42px;
+}
+
+.tiktok img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin:20px 0;
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.tiktok button{
+    padding:10px 25px;
+    border-radius:20px;
+    border:2px solid #555;
+    background:#e3e2dd;
+    font-size:18px;
+    cursor:pointer;
+}
+
+
+.boxcontainer {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 5px;
+padding-top: 10px;}
+ @media (min-width:768px){
+     .boxcontainer{
+         grid-template-columns: repeat( 4,1fr)
+
+}}
+
+.searchBtn{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+}
+.sicon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+}
+.caption1{
+   font-size: 25px;
+   font-family: parisienne;
+   padding-left: 15px;
+   font-style: bold;
+}
+.bttn{
+   width: 3rem;
+   margin-left: 4rem;
+   border-radius: 20px;
+    background-color: rgb(221, 221, 221);
+}
+footer{
+    background:#333;
+    color:#aaa;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+    position: fixed;
+}
+
+
+
+  </style>  
+</head> 
+<body>
+    <header>
+        <div class="navbar2">
+        <div class="logo2">
+            <img class="m" src="ijij.jpeg" alt="this is a logo">   
+             <h2 class="h2">L'Écrin Doux</h2>
+               
+           </div>
+           <nav class="b2">
+               <a class="txt1"  href="sign up.html">sign up</a>
+               <a class="txt2" href="explore.html"> explore</a>
+               <a class="txt3"  href="againwithCSS.html"> Acceuil</a>
+   
+           </nav>
+         </div>
+      </header>
+     
+      <div class="box1">
+        <div class="titles">
+        <h1 class="ttle1"> 
+            L’Écrin Doux</h1>
+           
+                <h3 class="ttle3">
+                    Nos bijoux ...</h3></div>
+
+      </div>
+      <div class="items">
+     <div class="line"> <h2 class="line-text"> Best Sellers</h2> </div>
+     <div class="line2"> <input class="input" type="search" id="search" placeholder="search"></div>
+      
+      
+          <div class="boxcontainer">
+              
+         <div class="article1">
+            <figure class="figure1">
+              <img src="ring1 (1).jpg" alt="une bague en or">
+              <figcaption class="caption1"> une bague en or <br>
+                prix ; 60dh
+                <br>
+</figcaption>
+<a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a> 
+          </figure></div>
+          <div class="article2">
+          <figure class="figure2">
+               <img src="ring2.jpg" alt="une bague en or">
+               <figcaption class="caption1"> une bague en or <br>
+                prix ; 60dh</figcaption> <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+          </figure></div>
+          <div class="article3">
+          <figure class="figure3">
+              <img src="ring3.jpg" alt="une bague en or">
+              <figcaption class="caption1" >une bague en or <br>
+                Prix ; 60dh</figcaption>
+                <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+             </figure></div>
+             <div class="article4">
+             <figure class="figure4">
+                 <img src="ring4.jpg" alt="une bague en or">
+                 <figcaption class="caption1" >
+                    Une bague en or <br>
+                    Prix ; 60dh
+                 </figcaption><a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article5">
+                <figure class="figure5">
+                    <img src="ring9.jpg" alt=" bague en or">
+                    <figcaption class="caption1">une bague en or <br>
+                        Prix ; 60dh</figcaption><a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article6">
+                <figure class="figure6">
+                    <img src="ring10.jpg" alt=" bague en or">
+                    <figcaption class="caption1"> une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>               </figure></div>
+                <div class="article7">
+                <figure class="figure7">
+                    <img src="ring7.jpg" alt=" bague en or">
+                    <figcaption class="caption1"> Une Bague en or <br>
+                        Prix ; 60dh </figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>                       
+                </figure></div>
+                <div class="article8">
+                <figure class="figure8">
+                    <img src="ring8.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article9">
+                <figure class="figure9">
+                    <img src="ring11.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article10">
+                <figure class="figure10">
+                    <img src="ring12.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article11">
+                <figure class="figure11">
+                    <img src="ring13.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article12">
+                <figure class="figure12">
+                    <img src="ring14.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article13">
+                <figure class="figure13">
+                    <img src="ring15.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure> </div>
+                <div class="article14">
+                <figure class="figure14">
+                    <img src="ring16.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article15">
+                <figure class="figure15">
+                    <img src="ring17.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article16">
+                <figure class="figure16">
+                    <img src="ring18.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article17">
+                <figure class="figure17">
+                    <img src="ring19.jpg" alt=" bague en or">
+                    <figcaption class="caption1">Une bague en or <br>
+                        Prix ; 60dh</figcaption>
+                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                </figure></div>
+                <div class="article18">
+                    <figure class="figure18">
+                        <img src="anotherring.jpg" alt=" bague en or">
+                        <figcaption class="caption1">Une bague en or <br>
+                            Prix ; 60dh</figcaption>
+                            <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                    </figure></div>
+                    <div class="article19">
+                        <figure class="figure19">
+                            <img src="anotherring2.jpg" alt=" bague en or">
+                            <figcaption class="caption1">Une bague en or <br>
+                                Prix ; 60dh</figcaption>
+                                <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                        </figure></div>
+                        <div class="article20">
+                            <figure class="figure20">
+                                <img src="necklace.jpg" alt=" collier en or">
+                                <figcaption class="caption1">Un collier en or <br>
+                                    Prix ; 60dh</figcaption>
+                                    <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                            </figure></div>
+                            <div class="article21">
+                                <figure class="figure21">
+                                    <img src="necklace2.jpg" alt=" collier en or">
+                                    <figcaption class="caption1">Un collier en or <br>
+                                        Prix ; 60dh</figcaption>
+                                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                </figure></div>
+                                <div class="article22">
+                                    <figure class="figure22">
+                                        <img src="necklace3.jpg" alt=" collier en or">
+                                        <figcaption class="caption1">Un collier en or <br>
+                                            Prix ; 60dh</figcaption>
+                                            <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                    </figure></div>
+                                    <div class="article23">
+                                        <figure class="figure23">
+                                            <img src="necklace4.jpg" alt=" collier en or">
+                                            <figcaption class="caption1">Un collier en or <br>
+                                                Prix ; 60dh</figcaption>
+                                                <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                        </figure></div>
+                                        <div class="article24">
+                                            <figure class="figure24">
+                                                <img src="necklace5.jpg" alt=" collier en or">
+                                                <figcaption class="caption1">Un collier en or <br>
+                                                    Prix ; 60dh</figcaption>
+                                                    <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                            </figure></div>
+                                            <div class="article25">
+                                                <figure class="figure25">
+                                                    <img src="bracelet.jpg" alt=" bracelet en or">
+                                                    <figcaption class="caption1">Un bracelet en or <br>
+                                                        Prix ; 60dh</figcaption>
+                                                        <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                </figure></div>
+                                                <div class="article26">
+                                                    <figure class="figure26">
+                                                        <img src="bracelet2.jpg" alt=" bracelet en or">
+                                                        <figcaption class="caption1">Un bracelet en or <br>
+                                                            Prix ; 60dh</figcaption>
+                                                            <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                    </figure></div>
+                                                    <div class="article27">
+                                                        <figure class="figure27">
+                                                            <img src="bracelet3.jpg" alt=" bracelet en or">
+                                                            <figcaption class="caption1">Un bracelet en or <br>
+                                                                Prix ; 60dh</figcaption>
+                                                                <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                        </figure></div>
+                                                        <div class="article28">
+                                                            <figure class="figure28">
+                                                                <img src="bracelet5.jpg" alt=" bracelet en or">
+                                                                <figcaption class="caption1">Un bracelet en or <br>
+                                                                    Prix ; 60dh</figcaption>
+                                                                    <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                            </figure></div>
+                                                            <div class="article29">
+                                                                <figure class="figure29">
+                                                                    <img src="bracelet6.jpg" alt=" bracelet en or">
+                                                                    <figcaption class="caption1">Un bracelet en or
+                                                                        <br>
+                Prix ; 60dh
+                                                                    </figcaption> <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                                </figure></div>
+                                                                <div class="article30">
+                                                                    <figure class="figure30">
+                                                                        <img src="1.jpg" alt=" bracelet de pied, chaine de pied en or">
+                                                                        <figcaption class="caption1">Une chevillière en or
+                                                                            <br>
+                    Prix ; 60dh
+                                                                        </figcaption> <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                                    </figure></div> 
+                                                                    <div class="article31">
+                                                                        <figure class="figure31">
+                                                                            <img src="3.jpg" alt=" bracelet de pied, chaine de pied en or">
+                                                                            <figcaption class="caption1">Une chevillière en or
+                                                                                <br>
+                        Prix ; 60dh
+                                                                            </figcaption> <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                                        </figure></div> 
+                                                                        <div class="article32">
+                                                                            <figure class="figure32">
+                                                                                <img src="4.jpg" alt=" bracelet de pied, chaine de pied en or">
+                                                                                <figcaption class="caption1">Une chevillière en or
+                                                                                    <br>
+                            Prix ; 60dh
+                                                                                </figcaption> <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                                            </figure></div>                          
+                                                                            <div class="article33">
+                                                                                <figure class="figure33">
+                                                                                    <img src="5.jpg" alt=" bracelet de pied, chaine de pied en or">
+                                                                                    <figcaption class="caption1">Une chevillière en or
+                                                                                        <br>
+                                Prix ; 60dh
+                                                                                    </figcaption> <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                                                </figure></div>  
+                                                                                <figure class="figure34">
+                                                                                    <img src="7.jpg" alt=" bracelet de pied, chaine de pied en or">
+                                                                                    <figcaption class="caption1">Une chevillière en or
+                                                                                        <br>
+                                Prix ; 60dh
+                                                                                    </figcaption> <a href="http://www.tiktok.com/@lecrindoux.shop" target="blank"><button class="bttn">acheter</button></a>
+                                                                                </figure></div>
+
+              </div>  
+              <section class="tiktok">
+                                                                    <h1>Notre Page TikTok</h1>
+                                                                    <img src="ijij.jpeg">
+                                                                    <a href="https://www.tiktok.com/@lecrindoux.shop">
+                                                                        <button>Page TikTok</button>
+                                                                    </a>
+                                                                </section>
+<footer>
+    © L'Écrin Doux 2024 — All rights reserved
+</footer>
+              <script>
+         
+        
+const searchInput = document.getElementById("search");
+const items = document.querySelectorAll(".items figure");
+
+ function normalize(text) {
+    return text
+        .toLowerCase()
+        .replace(/s\b/g, "")  
+        .trim();
+}
+
+searchInput.addEventListener("input", () => {
+    const value = normalize(searchInput.value);
+
+    items.forEach(item => {
+        const imgAlt = item.querySelector("img")?.alt || "";
+        const caption = item.textContent || "";
+        const text = normalize(imgAlt + " " + caption);
+
+        item.style.display = text.includes(value) ? "" : "none";
+    });
+});
+</script>
+
+
+
+            
+
+        
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+</body>
