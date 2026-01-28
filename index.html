@@ -62,17 +62,29 @@ body{
 }
 
 
-.hero{
-    margin-top:70px;
-    height:70vh;
-    background:url("l2.png") center/cover no-repeat;
-    display:flex;
-    justify-content:center;
-    align-items:flex-end;
-    padding-bottom:30px;
+.box1 {
+        height: auto;
+        min-height: 500px;
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        max-width: 1200px;
+        background-image: url(ring.jpg);
+        background-size: cover ;
+        background-position: center  ;
+        box-shadow: 10px 10px 20px 10px 10px rgb(85, 85, 85);
+}
+.ttle1 {
+     font-family: parisienne;
+     font-weight: bold; 
+     font-size: 3rem;
+    
+     padding-top: 10rem;
+     padding-left: 1rem;
+     color: rgb(136, 136, 136);
 }
 
-.hero button{
+.box1 button{
     padding:12px 35px;
     font-size:18px;
     border-radius:25px;
@@ -240,10 +252,14 @@ footer{
     </nav>
 </header>
 
-<section class="hero">
-    <button>Explorer</button>
-</section>
+   <div class="box1">
+        <div class="titles">
+        <h1 class="ttle1"> 
+            L’Écrin Doux</h1>
+           <a href="explore.html"> <button>Explorer</button></a>
+                </div>
 
+      </div>
 <section class="about">
     <div>
         <h1>Les bijoux c'est de l'amour...</h1>
@@ -297,4 +313,5 @@ footer{
 </body>
 
 </html>
+
 
